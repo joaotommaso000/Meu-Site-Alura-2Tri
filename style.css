@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fonte padrão */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #3e2723; /* Cor do texto principal em marrom escuro */
+    line-height: 1.6;
+    background-color: #f0eae3; /* Fundo suave, quase beige */
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #8d6e63, #5d4037); /* Gradiente de marrom café vibrante */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em; /* Tamanho maior para destaque */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffab91; /* Cor vibrante de laranja claro */
+}
+
+/* Seção Hero */
+.hero {
+    background: linear-gradient(180deg, #a89f91, #6d4c41); /* Gradiente de marrom claro a escuro */
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px; /* Bordas arredondadas para um visual mais moderno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+}
+
+.hero-content h2 {
+    margin-bottom: 15px;
+    font-size: 2em; /* Tamanho maior para destaque */
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Conteúdo principal */
+.content {
+    padding: 20px;
+    max-width: 800px; /* Define uma largura máxima para o conteúdo */
+    margin: 20px auto;  /* Adiciona margem superior e inferior para espaçamento */
+    background-color: #fff; /* Fundo branco para contraste com o texto marrom */
+    border-radius: 8px; /* Bordas arredondadas para um visual moderno */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.content article {
+    margin-bottom: 30px; /* Aumenta o espaçamento entre artigos */
+}
+
+.content article img {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    max-width: 100%; /* Garante que a imagem não ultrapasse o container */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas para as imagens */
+    object-fit: cover; /* Ajusta a imagem para preencher o container sem distorcer */
+}
+
+/* Títulos e parágrafos no conteúdo */
+.content h2 {
+    color: #5d4037; /* Cor vibrante para os títulos */
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 1.1em; /* Fonte ligeiramente maior para legibilidade */
+}
+
+/* Rodapé */
+footer {
+    background: #5d4037; /* Cor sólida de marrom café escuro */
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
