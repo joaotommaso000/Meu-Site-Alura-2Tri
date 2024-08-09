@@ -1,0 +1,379 @@
+body {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+    padding: 10px;
+}
+svg text {
+	animation: stroke 8s infinite alternate;
+	stroke-width: 2;
+	stroke: #dee7da;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(255,255,255,0); stroke: rgb(241, 247, 239);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(255,255,255,0); stroke: rgb(225, 233, 223); }
+	80%  {fill: rgba(255,255,255,0); stroke: rgb(221, 227, 219); stroke-width: 3; }
+	100% {
+		fill: rgba(255,255,255,1); stroke: rgba(23,108,0,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #6f4f28};
+
+
+header {
+    background-color: #6f4f28;
+    color: #3e2723 ;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    position: sticky;
+    top: 0px;
+    list-style: none;
+    padding: 10PX;
+    margin: 0PX;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8d6e63;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-size: 45px;
+    text-align: center;
+    background-image: url(CafCarlpolis_020.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+    font-size: 50px;
+}
+
+img {
+    width: 750px;
+    height: 450px;
+}
+
+.noticias {
+    flex-basis: 80%;
+}
+.noticias article {
+    color: #0d0d0de7;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0 0px 0px rgb(249, 248, 248);
+    font-size: 20px;
+    
+}
+
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 200px;
+    background-color: #d7dfdb;
+    width: 800px;
+    height: 650px;
+
+}
+
+section h4 {
+    color: #6f4f28;
+    font-size: 2.5rem;
+    margin: 2rem;
+
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    color: #151313;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16 px;
+
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgb(31, 31, 30);
+    color: #141212;
+    transition: all 1s;
+    margin-bottom: 20 px;
+}
+
+form button.hover{
+    background-color: #161515;
+    color: #f0e8e8;
+    border-radius: 16px;
+}
+
+footer{
+    background-color: #3e2723;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+    padding: 10px;
+}
+svg text {
+	animation: stroke 8s infinite alternate;
+	stroke-width: 2;
+	stroke: #dee7da;
+	font-size: 80px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(255,255,255,0); stroke: rgb(241, 247, 239);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(255,255,255,0); stroke: rgb(225, 233, 223); }
+	80%  {fill: rgba(255,255,255,0); stroke: rgb(221, 227, 219); stroke-width: 3; }
+	100% {
+		fill: rgba(255,255,255,1); stroke: rgba(23,108,0,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #015421};
+
+
+header {
+    background-color: #055912;
+    color: #055117;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    position: sticky;
+    top: 0px;
+    list-style: none;
+    padding: 10PX;
+    margin: 0PX;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e6e2f;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Open Sans;
+    font-size: 45px;
+    text-align: center;
+    background-image: url(agru.webp);
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 20px;
+    font-size: 50px;
+}
+
+img {
+    width: 750px;
+    height: 450px;
+}
+
+.noticias {
+    flex-basis: 80%;
+}
+.noticias article {
+    color: #0d0d0de7;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0 0px 0px rgb(249, 248, 248);
+    font-size: 20px;
+    
+}
+
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 200px;
+    background-color: #d7dfdb;
+    width: 800px;
+    height: 650px;
+
+}
+
+section h4 {
+    color: #11791a;
+    font-size: 2.5rem;
+    margin: 2rem;
+
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    color: #151313;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+form input:focus{
+    border-radius: 16 px;
+
+}
+
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 16px;
+}
+
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: transparent;
+    border: 2px solid rgb(31, 31, 30);
+    color: #141212;
+    transition: all 1s;
+    margin-bottom: 20 px;
+}
+
+form button.hover{
+    background-color: #161515;
+    color: #f0e8e8;
+    border-radius: 16px;
+}
+
+footer{
+    background-color: #005a13;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    clear: both;
+}
